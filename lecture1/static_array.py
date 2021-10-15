@@ -19,9 +19,9 @@ class StaticArray:
 
 def birthday_match(students):
     '''
-    find a pair of student with the same birthday
+    find a pair of student with the same birthday or all students with tht same birthday
     :param students: all students
-    :return: a pair of student if found, others return None
+    :return: a dict, the key is the birthday and item is the name
     '''
     n = len(students)
     student_record = StaticArray(n)
